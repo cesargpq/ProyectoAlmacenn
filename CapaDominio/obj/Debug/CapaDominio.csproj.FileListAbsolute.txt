@@ -1,0 +1,10 @@
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaDominio\bin\Debug\CapaDominio.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaDominio\bin\Debug\CapaDominio.pdb
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaDominio\obj\Debug\CapaDominio.csprojResolveAssemblyReference.cache
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaDominio\obj\Debug\CapaDominio.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaDominio\obj\Debug\CapaDominio.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaDominio\bin\Debug\CapaDominio.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaDominio\bin\Debug\CapaDominio.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.pdb

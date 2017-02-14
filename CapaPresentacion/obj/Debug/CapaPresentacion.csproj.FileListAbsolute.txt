@@ -1,0 +1,88 @@
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\CapaPresentacion.dll.config
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\CapaPresentacion.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\CapaPresentacion.pdb
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Helpers.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Mvc.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Razor.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Webpages.Deployment.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Webpages.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Webpages.Razor.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Razor.xml
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Webpages.xml
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Webpages.Deployment.xml
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Webpages.Razor.xml
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Helpers.xml
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\System.Web.Mvc.xml
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\es\System.Web.Razor.resources.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\es\System.Web.Webpages.resources.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\es\System.Web.Webpages.Deployment.resources.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\es\System.Web.Webpages.Razor.resources.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\es\System.Web.Helpers.resources.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\es\System.Web.Mvc.resources.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+c:\users\cesargpq\documents\visual studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\CapaDominio.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\CapaLogica.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\CapaDominio.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPresentacion\bin\CapaLogica.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaPresentacion.dll.config
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaPresentacion.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaPresentacion.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaDominio.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaLogica.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Helpers.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Mvc.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Razor.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Deployment.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Razor.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaDominio.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaLogica.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Razor.xml
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.xml
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Deployment.xml
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Razor.xml
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Helpers.xml
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Mvc.xml
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Webpages.resources.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaPersistencia.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPresentacion\bin\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaPresentacion.dll.config
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaPresentacion.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaPresentacion.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaDominio.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaLogica.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Helpers.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Mvc.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Razor.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Deployment.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Razor.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaPersistencia.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaDominio.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaLogica.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Razor.xml
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.xml
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Deployment.xml
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Webpages.Razor.xml
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Helpers.xml
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\System.Web.Mvc.xml
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Webpages.resources.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

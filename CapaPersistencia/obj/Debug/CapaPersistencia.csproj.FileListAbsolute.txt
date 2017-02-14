@@ -1,0 +1,19 @@
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPersistencia\bin\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPersistencia\bin\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPersistencia\obj\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaPersistencia\obj\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.pdb

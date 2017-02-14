@@ -1,0 +1,44 @@
+﻿@using CapaDominio;
+@model IEnumerable<entAlmacen>
+@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/masterAlmacen.cshtml";
+}
+
+<div>
+    <h3>Lista de Almacenes</h3>
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Almacen</th>
+                    <th>Descripcion</th>
+                    <th>Direccion</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td></td>
+                        <td>@item.idAlmacen</td>
+                        <td>@item.nombre</td>
+                        <td>@Html.DisplayFor(modelItem => item.descripcion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.direccion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.telefono)</td>
+
+                   
+                        <td>
+                            @Html.ActionLink("Editar", "Editar", new { idAlmacen = @item.idAlmacen })
+                        </td>   
+                        
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

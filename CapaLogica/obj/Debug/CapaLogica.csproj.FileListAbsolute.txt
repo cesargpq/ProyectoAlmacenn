@@ -1,0 +1,27 @@
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\bin\Debug\CapaDominio.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\bin\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\bin\Debug\CapaDominio.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\bin\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacen\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\CESARGPQ\Documents\Visual Studio 2013\Projects\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.pdb
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.pdb
