@@ -34,3 +34,12 @@ C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\bin\Debug\C
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.pdb

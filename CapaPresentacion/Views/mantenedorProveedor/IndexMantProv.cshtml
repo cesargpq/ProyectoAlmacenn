@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Proveedor";
+    Layout = "~/Views/masterAlmacen.cshtml";
+}
+</br>
+</br>
+
+<div class="row">
+    <div class="col-lg-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Opciones de Mantenedor</h4>
+            </div>
+            <!-- .panel-heading -->
+            <div class="panel-body">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Listar Proveedor</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Se muestra una tabla con todos los proveedores registrados en el almacén. Permite buscar información de un proveedor concreto.
+                                <form method="get" action="Listar">
+                                    <br>
+                                    <input type="submit" value="Ingresar" class="btn btn-outline btn-primary" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Registrar Proveedor</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Se muestran los datos necesarios para ingresar un nuevo proveedor en el sistema.
+                                <form method="get" action="Nuevo">
+                                    <br>
+                                    <input type="submit" value="Ingresar" class="btn btn-outline btn-primary" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Editar Proveedor</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Se muestra la información del proveedor del que se desea modificar información.
+                                <form method="get" action="Editar">
+                                    <br>
+                                    <input type="submit" value="Ingresar" class="btn btn-outline btn-primary" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Eliminar Proveedor</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Se muestra una lista con los proveedores registrados en el sistema. Al eliminar un proveedor, este quedará inactivo y no se mostrará en las búsquedas.
+                                <form method="get" action="Eliminar">
+                                    <br>
+                                    <input type="submit" value="Ingresar" class="btn btn-outline btn-primary" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+

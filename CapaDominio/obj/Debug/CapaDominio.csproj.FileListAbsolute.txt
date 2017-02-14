@@ -13,3 +13,8 @@ C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaDominio\bin\Debug\
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.csprojResolveAssemblyReference.cache
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.dll
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaDominio\bin\Debug\CapaDominio.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaDominio\bin\Debug\CapaDominio.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaDominio\obj\Debug\CapaDominio.pdb

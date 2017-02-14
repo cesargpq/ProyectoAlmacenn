@@ -260,6 +260,11 @@
     <Content Include="Views\Error\errores.cshtml" />
     <Content Include="Views\Inicio\Index.cshtml" />
     <Content Include="Views\MantenedorAlmacen\Editar.cshtml" />
+    <Content Include="Views\MantenedorProveedor\IndexMantProv.cshtml" />
+    <Content Include="Views\MantenedorProveedor\Listar.cshtml" />
+    <Content Include="Views\MantenedorProveedor\Eliminar.cshtml" />
+    <Content Include="Views\MantenedorProveedor\Nuevo.cshtml" />
+    <Content Include="Views\MantenedorProveedor\Editar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -268,11 +273,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\MantenedorCategoria\" />
     <Folder Include="Views\MantenedorProducto\" />
-    <Folder Include="Views\MantenedorProveedor\" />
     <Folder Include="Views\OrdenCompra\" />
     <Folder Include="Views\OrdenTrabajo\" />
   </ItemGroup>

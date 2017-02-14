@@ -13,5 +13,10 @@ namespace CapaPresentacion.Controllers
         {
             return View();
         }
+
+        public ActionResult MantenedorProveedor()
+        {
+            return RedirectToAction("IndexMantProv", "MantenedorProveedor");
+        }
     }
 }

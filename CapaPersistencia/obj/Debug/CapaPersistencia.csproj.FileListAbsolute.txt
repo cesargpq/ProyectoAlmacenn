@@ -24,3 +24,10 @@ C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\bin\D
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.dll
 C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.pdb
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.dll
+C:\Users\USUARIO\Desktop\ProyectoAlmacen\ProyectoAlmacenn\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.pdb
