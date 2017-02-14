@@ -7,7 +7,7 @@ using CapaDominio;
 using CapaLogica;
 namespace CapaPresentacion.Controllers
 {
-    public class mantenedorAlmacenController : Controller
+    public class MantenedorAlmacenController : Controller
     {
         // GET: mantenedorAlmacen
         public ActionResult Listar()

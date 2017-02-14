@@ -17,3 +17,10 @@ C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\C
 C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
 C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.dll
 C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.pdb
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.dll
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaPersistencia.pdb
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.dll
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\bin\Debug\CapaDominio.pdb
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.csprojResolveAssemblyReference.cache
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.dll
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaPersistencia\obj\Debug\CapaPersistencia.pdb

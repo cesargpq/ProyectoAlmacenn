@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace CapaPresentacion.Controllers
 {
-    public class productoController : Controller
+    public class MantenedorProductoController : Controller
     {
         // GET: producto
         public ActionResult agregar()

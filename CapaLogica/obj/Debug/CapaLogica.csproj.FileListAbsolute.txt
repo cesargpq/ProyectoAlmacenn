@@ -25,3 +25,12 @@ C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\C
 C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
 C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\CESARGPQ\Downloads\ProyectoAlmacenn-20170213T072629Z\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.dll
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.dll
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaDominio.pdb
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\bin\Debug\CapaPersistencia.pdb
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\brian\OneDrive\Documentos\DIARS\ProyectoAlmacenn\CapaLogica\obj\Debug\CapaLogica.pdb

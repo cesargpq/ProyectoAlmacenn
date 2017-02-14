@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -236,9 +237,13 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\IngresoMaterialController.cs" />
     <Compile Include="Controllers\InicioController.cs" />
-    <Compile Include="Controllers\mantenedorAlmacenController.cs" />
-    <Compile Include="Controllers\productoController.cs" />
+    <Compile Include="Controllers\MantenedorAlmacenController.cs" />
+    <Compile Include="Controllers\MantenedorProveedorController.cs" />
+    <Compile Include="Controllers\MantenedorCategoriaController.cs" />
+    <Compile Include="Controllers\MantenedorProductoController.cs" />
+    <Compile Include="Controllers\SalidaMaterialController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -272,6 +277,10 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\IngresoMaterial\" />
+    <Folder Include="Views\mantenedorProveedor\" />
+    <Folder Include="Views\matenedorCategoria\" />
+    <Folder Include="Views\SalidaMaterial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaDominio\CapaDominio.csproj">
