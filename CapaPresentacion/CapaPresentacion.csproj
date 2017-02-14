@@ -261,10 +261,11 @@
     <Content Include="Views\Inicio\Index.cshtml" />
     <Content Include="Views\MantenedorAlmacen\Editar.cshtml" />
     <Content Include="Views\MantenedorProveedor\IndexMantProv.cshtml" />
-    <Content Include="Views\MantenedorProveedor\Listar.cshtml" />
     <Content Include="Views\MantenedorProveedor\Eliminar.cshtml" />
     <Content Include="Views\MantenedorProveedor\Nuevo.cshtml" />
     <Content Include="Views\MantenedorProveedor\Editar.cshtml" />
+    <Content Include="Views\MantenedorProveedor\Listar.cshtml" />
+    <Content Include="Views\MantenedorProveedor\Buscar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

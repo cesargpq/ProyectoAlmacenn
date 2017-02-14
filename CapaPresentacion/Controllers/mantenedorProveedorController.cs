@@ -62,7 +62,20 @@ namespace CapaPresentacion.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult InfoProv()
+        {
+            return View();
+        }
+
+        [HttpGet]
         public ActionResult Buscar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Buscar(FormCollection frm)
         {
             return View();
         }

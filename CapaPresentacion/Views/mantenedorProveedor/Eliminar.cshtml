@@ -9,10 +9,10 @@
 </br>
 
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h4>Editar Proveedor</h4>
+                <h4>Eliminar Proveedor</h4>
             </div>
             <!-- .panel-heading -->
             <div class="panel-body">
@@ -21,7 +21,7 @@
                     <hr />
                     <dl class="dl-horizontal">
                         <dt>
-                            @Html.DisplayNameFor(model => model.nombre)
+                            <p class="control-label col-md-2" align="right"><strong>Nombre:</strong></p>
                         </dt>
 
                         <dd>
@@ -29,39 +29,7 @@
                         </dd>
 
                         <dt>
-                            @Html.DisplayNameFor(model => model.ruc)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.ruc)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.descripcion)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.descripcion)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.telefono)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.telefono)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.email)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.email)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.razonSocial)
+                            <p class="control-label col-md-2" align="right"><strong>Razón Social:</strong></p>
                         </dt>
 
                         <dd>
@@ -69,13 +37,36 @@
                         </dd>
 
                         <dt>
-                            @Html.DisplayNameFor(model => model.idProveedor)
+                            <p class="control-label col-md-2" align="right"><strong>RUC:</strong></p>
                         </dt>
 
                         <dd>
-                            @Html.DisplayFor(model => model.idProveedor)
+                            @Html.DisplayFor(model => model.ruc)
                         </dd>
 
+                        <dt>
+                            <p class="control-label col-md-2" align="right"><strong>Descripción:</strong></p>
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.descripcion)
+                        </dd>
+
+                        <dt>
+                            <p class="control-label col-md-2" align="right"><strong>E-mail:</strong></p>
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.email)
+                        </dd>
+
+                        <dt>
+                            <p class="control-label col-md-2" align="right"><strong>Teléfono:</strong></p>
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.telefono)
+                        </dd>
                     </dl>
 
                     @using (Html.BeginForm())
@@ -83,7 +74,9 @@
                         @Html.AntiForgeryToken()
 
                         <div class="form-actions no-color">
-                            <input type="submit" value="Eliminar" class="btn btn-outline btn-primary" />
+                            <div class="col-md-10">
+                                <input type="submit" value="Eliminar" class="btn btn-outline btn-primary" />
+                            </div>
                         </div>
                     }
                 </div>

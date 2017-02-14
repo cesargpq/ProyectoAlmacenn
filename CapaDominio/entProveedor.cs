@@ -8,7 +8,7 @@ namespace CapaDominio
 {
     public class entProveedor
     {
-        public String  nombre { get; set; }
+        public String nombre { get; set; }
         public String ruc { get; set; }
         public String descripcion { get; set; }
         public String telefono { get; set; }
