@@ -22,34 +22,7 @@ namespace CapaPresentacion.Controllers
                 return RedirectToAction("Index", "Error", new { mensajerror = ex.Message });
             }
         }
-        public ActionResult Listar2()
-        {
-            try
-            {
-                List<entAlmacen> lista = logAlmacen.Instancia.ListarAlmacen();
-                return View(lista);
 
-            }
-            catch (Exception e)
-            {
-
-               return RedirectToAction("Index","Error",new{menesajerror=e.Message});
-            }
-        }
-        public ActionResult Listar3()
-        {
-            try
-            {
-                List<entAlmacen> lista = logAlmacen.Instancia.ListarAlmacen();
-                return View(lista);
-
-            }
-            catch (Exception e)
-            {
-
-                return RedirectToAction("Index", "Error", new { menesajerror = e.Message });
-            }
-        }
         [HttpGet]
         public ActionResult Nuevo() 
         {
@@ -82,6 +55,7 @@ namespace CapaPresentacion.Controllers
                 return RedirectToAction("errores", "Error", new { mensajerror = ex.Message });
             }
         }
+
         [HttpGet]
         public ActionResult Editar(int idAlmacen) {
             try
@@ -96,6 +70,7 @@ namespace CapaPresentacion.Controllers
                 return RedirectToAction("Index", "Error", new { mensajerror = ex.Message });
             }
         }
+
         [HttpPost]
         public ActionResult Editar(entAlmacen a)
         {

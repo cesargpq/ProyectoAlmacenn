@@ -9,7 +9,27 @@ namespace CapaPresentacion.Controllers
     public class MantenedorCategoriaController : Controller
     {
         // GET: matenedorCategoria
-        public ActionResult Index()
+        public ActionResult Listar()
+        {
+            return View();
+        }
+
+        public ActionResult Nuevo()
+        {
+            return View();
+        }
+
+        public ActionResult Editar()
+        {
+            return View();
+        }
+
+        public ActionResult Eliminar()
+        {
+            return View();
+        }
+
+        public ActionResult Buscar()
         {
             return View();
         }

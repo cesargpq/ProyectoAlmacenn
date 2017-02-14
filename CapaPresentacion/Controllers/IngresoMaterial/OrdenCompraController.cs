@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace CapaPresentacion.Controllers
+namespace CapaPresentacion.Controllers.IngresoMaterial
 {
-    public class SalidaMaterialController : Controller
+    public class OrdenCompraController : Controller
     {
-        // GET: SalidaMaterial
+        // GET: OrdenCompra
         public ActionResult Index()
         {
             return View();
