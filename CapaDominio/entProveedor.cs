@@ -8,13 +8,15 @@ namespace CapaDominio
 {
     public class entProveedor
     {
+        public int idProveedor { get; set; }
         public String nombre { get; set; }
         public String ruc { get; set; }
+        public String razonSocial { get; set; }
         public String descripcion { get; set; }
         public String telefono { get; set; }
         public String email { get; set; }
-        public String razonSocial { get; set; }
-        public int idProveedor { get; set; }
+        
+        
 
     }
 }

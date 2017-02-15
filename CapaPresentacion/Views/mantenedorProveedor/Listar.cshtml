@@ -1,8 +1,8 @@
-﻿
-@using CapaDominio
+﻿@using CapaDominio
 @model IEnumerable<entProveedor>
 
 @{
+    
     ViewBag.Title = "Lista";
     Layout = "~/Views/masterAlmacen.cshtml";
 }
@@ -43,9 +43,7 @@
                                 <td>@Html.DisplayFor(modelItem => item.email)</td>
                                 <td width="50px">
                                     <form method="get" action="Editar">
-                                        <button type="submit" class="btn btn-primary btn-circle" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-list"></i>
-                                        </button>
+                                        <input type="submit" class="btn btn-primary btn-circle" data-toggle="tooltip" data-placement="top" title="Editar" />
                                     </form>
                                 </td>
                                 <td width="50px">

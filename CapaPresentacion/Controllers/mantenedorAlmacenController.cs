@@ -60,8 +60,6 @@ namespace CapaPresentacion.Controllers
         public ActionResult Editar(int idAlmacen) {
             try
             {
-
-
                 entAlmacen a = logAlmacen.Instancia.DevolverAlmacen(idAlmacen);
                 return View(a);
             }

@@ -14,7 +14,15 @@ namespace CapaPresentacion.Controllers
         // GET: mantenedorProveedor
         public ActionResult Listar()
         {
-            return View();
+            try
+            {
+                List<entProveedor> lista = logProveedor.Instancia.ListarProveedor();
+                return View(lista);
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Index", "Error", new { mensajerror = ex.Message });
+            }
         }
 
         [HttpGet]
@@ -24,33 +32,99 @@ namespace CapaPresentacion.Controllers
         }
 
         [HttpPost]
-        public ActionResult Nuevo(FormCollection frm)
+        public ActionResult Nuevo(entProveedor p)
         {
-            return View();
+            try
+            {
+                Boolean inserto = logProveedor.Instancia.InsertarProveedor(p);
+                if (inserto)
+                {
+
+                    return RedirectToAction("Listar");
+                }
+                else
+                {
+                    return View(p);
+                }
+            }
+            catch (ApplicationException ex)
+            {
+                return RedirectToAction("Nuevo", new { msjException = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("errores", "Error", new { mensajerror = ex.Message });
+            }
         }
 
         [HttpGet]
-        public ActionResult Editar()
+        public ActionResult Editar(int idProveedor)
         {
-            return View();
+            try
+            {
+                entProveedor p = logProveedor.Instancia.DevolverProveedor(idProveedor);
+                return View(p);
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Index", "Error", new { mensajerror = ex.Message });
+            }
         }
 
         [HttpPost]
-        public ActionResult Editar(FormCollection frm)
+        public ActionResult Editar(entProveedor p)
         {
-            return View();
+            try
+            {
+                Boolean edito = logProveedor.Instancia.EditarProveedor(p);
+                if (edito)
+                {
+                    return RedirectToAction("Listar");
+                }
+                else
+                {
+                    return View(p);
+                }
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Index", "Error", new { mensajerror = ex.Message });
+            }
         }
 
         [HttpGet]
-        public ActionResult Eliminar()
+        public ActionResult Eliminar(int idProveedor)
         {
-            return View();
+            try
+            {
+                entProveedor p = logProveedor.Instancia.DevolverProveedor(idProveedor);
+                return View(p);
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Index", "Error", new { mensajerror = ex.Message });
+            }
         }
 
         [HttpPost]
-        public ActionResult Eliminar(FormCollection frm)
+        public ActionResult Eliminar(entProveedor p)
         {
-            return View();
+            try
+            {
+                Boolean elimino = logProveedor.Instancia.EliminarProveedor(p);
+                if (elimino)
+                {
+                    return RedirectToAction("Listar");
+                }
+                else
+                {
+                    return View(p);
+                }
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Index", "Error", new { mensajerro = ex.Message });
+            }
         }
 
         [HttpGet]
