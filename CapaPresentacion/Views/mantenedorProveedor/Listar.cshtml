@@ -1,89 +1,68 @@
-﻿@model IEnumerable<CapaDominio.entProveedor>
+﻿
+@using CapaDominio
+@model IEnumerable<entProveedor>
 
 @{
-    ViewBag.Title = "Listar";
+    ViewBag.Title = "Lista";
     Layout = "~/Views/masterAlmacen.cshtml";
 }
 
 </br>
 </br>
 
-<div class="row">
-    <div class="col-lg-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4>Lista de Proveedores</h4>
-            </div>
-            <div class="panel-body">
-                <!-- Tabla de Listar -->
-                <form method="post" action="Listar">
-                    <div class="input-group custom-search-form">
-                        <input type="text" class="form-control" placeholder="Buscar...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </span>
-                    </div>
-                </form>
-                <div class="table-responsive">
-                    <table class="table table-striped table-bordered table-hover">
-                        <thead>
-                            <tr>
-                                <th>Código</th>
-                                <th>Nombre</th>
-                                <th>R. Social</th>
-                                <th>RUC</th>
-                                <th>Descripción</th>
-                                <th>E-mail</th>
-                                <th>Teléfono</th>
-                                <th>Información</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var item in Model)
-                            {
-                                <tr>
-                                    <td>
-                                        @Html.DisplayFor(item => item.nombre)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(item => item.ruc)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(item => item.descripcion)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(item => item.telefono)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(item => item.email)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(item => item.razonSocial)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(item => item.idProveedor)
-                                    </td>
-                                    <td>
-                                        <form method="get" action="InfoProv">
-                                            <button type="button" class="btn btn-primary btn-circle">
-                                                <i class="fa fa-list"></i>
-                                            </button>
-                                        </form>
-                                    </td>
-                                </tr>
-                            }
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="panel-footer">
-                <form method="get" action="IndexMantProv">
-                    <input type="submit" value="Regresar a Opciones" class="btn btn-outline btn-primary" />
-                </form>
-            </div>
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4><strong>Lista de Proveedores</strong></h4>
         </div>
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nombre</th>
+                            <th>Razón Social</th>
+                            <th>RUC</th>
+                            <th>Descripción</th>
+                            <th>Teléfono</th>
+                            <th>E-mail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.idProveedor)</td>
+                                <td>@Html.DisplayFor(modelItem => item.nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => item.razonSocial)</td>
+                                <td>@Html.DisplayFor(modelItem => item.ruc)</td>
+                                <td>@Html.DisplayFor(modelItem => item.descripcion)</td>
+                                <td>@Html.DisplayFor(modelItem => item.telefono)</td>
+                                <td>@Html.DisplayFor(modelItem => item.email)</td>
+                                <td width="50px">
+                                    <form method="get" action="Editar">
+                                        <button type="submit" class="btn btn-primary btn-circle" data-toggle="tooltip" data-placement="top" title="Editar">
+                                            <i class="fa fa-list"></i>
+                                        </button>
+                                    </form>
+                                </td>
+                                <td width="50px">
+                                    <form method="get" action="Eliminar">
+                                        <button type="submit" class="btn btn-warning btn-circle" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                            <i class="fa fa-times"></i>
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.table-responsive -->
+        </div>
+        <!-- /.panel-body -->
     </div>
-    <!-- /.col-lg-4 -->
+    <!-- /.panel -->
 </div>

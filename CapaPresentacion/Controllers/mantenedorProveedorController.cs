@@ -3,25 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CapaDominio;
+using CapaLogica;
+using System.IO;
 
 namespace CapaPresentacion.Controllers
 {
     public class MantenedorProveedorController : Controller
     {
         // GET: mantenedorProveedor
-        public ActionResult IndexMantProv()
-        {
-            return View();
-        }
-
-        [HttpGet]
         public ActionResult Listar()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Listar(FormCollection frm)
         {
             return View();
         }
@@ -58,12 +49,6 @@ namespace CapaPresentacion.Controllers
 
         [HttpPost]
         public ActionResult Eliminar(FormCollection frm)
-        {
-            return View();
-        }
-
-        [HttpGet]
-        public ActionResult InfoProv()
         {
             return View();
         }
