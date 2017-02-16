@@ -143,6 +143,7 @@
     </div>
     <!-- /#wrapper -->
     <!-- jQuery -->
+    <script src="~/Bootstrap/vendor/jquery/jquery.js"></script>
     <script src="~/Bootstrap/vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="~/Bootstrap/vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -154,8 +155,7 @@
     <script src="~/Bootstrap/vendor/datatables/js/jquery.dataTables.min.js"></script>
     <script src="~/Bootstrap/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
     <script src="~/Bootstrap/vendor/datatables-responsive/dataTables.responsive.js"></script>
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+    @RenderSection("jquery", required: false)
 
 </body>
 
