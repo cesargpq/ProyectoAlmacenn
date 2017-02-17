@@ -262,6 +262,7 @@
     <Content Include="Views\MantenedorAlmacen\Editar.cshtml" />
     <Content Include="Views\MantenedorProveedor\Listar.cshtml" />
     <Content Include="Views\MantenedorProveedor\Editar.cshtml" />
+    <Content Include="Views\MantenedorProducto\Listar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -272,7 +273,6 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Views\MantenedorCategoria\" />
-    <Folder Include="Views\MantenedorProducto\" />
     <Folder Include="Views\OrdenCompra\" />
     <Folder Include="Views\OrdenTrabajo\" />
   </ItemGroup>

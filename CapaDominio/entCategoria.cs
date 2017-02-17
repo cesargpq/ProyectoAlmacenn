@@ -10,6 +10,7 @@ namespace CapaDominio
     {
         public String nombre { get; set; }
         public String descripcion { get; set; }
-        public String idCategoria { get; set; }
+        public int idCategoria { get; set; }
+        public Boolean estado { get; set; }
     }
 }

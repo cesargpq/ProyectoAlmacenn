@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CapaDominio;
+using CapaLogica;
 
 namespace CapaPresentacion.Controllers
 {
     public class MantenedorProductoController : Controller
     {
         // GET: producto
+        [HttpGet]
         public ActionResult Listar()
         {
-            return View();
+            List<entProducto> lista = logProducto.Instancia.ListarProductos();
+            return View(lista);
         }
 
-        public ActionResult Nuevo()
+        /*public ActionResult Nuevo()
         {
             return View();
         }
@@ -32,6 +36,6 @@ namespace CapaPresentacion.Controllers
         public ActionResult Buscar()
         {
             return View();
-        }
+        }*/
     }
 }

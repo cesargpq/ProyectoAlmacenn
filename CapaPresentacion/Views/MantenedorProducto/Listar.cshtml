@@ -1,0 +1,87 @@
+﻿@using CapaDominio
+@model IEnumerable<entProducto>
+
+@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/masterAlmacen.cshtml";
+}
+
+<style>
+    th{
+        text-align:center;
+    }
+</style>
+
+<br/>
+<br/>
+
+
+
+<div class="col-lg-12">
+    <a type="button" class="btn btn-primary" href='@Url.Action("Nuevo", "MantenedorProducto")'><i class="glyphicon glyphicon-plus"></i> Nuevo</a>
+    <br/>
+    <br/>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4><strong>Lista de Productos</strong></h4>
+        </div>
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-hover text-center">
+                    <thead>
+                        <tr>
+                            <th>Estado</th>
+                            <th>Nombre</th>
+                            <th>Marca</th>
+                            <th>Categoría</th>
+                            <th>Precio</th>
+                            <th>Fecha de Vencimiento</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                @{
+                                    if (item.estado)
+                                    {
+                                        <td><i class="fa fa-circle" style="color:blue;"></i></td>
+                                    }
+                                    else
+                                    {
+                                        <td><i class="fa fa-circle center" style="color:red"></i></td>
+                                    }
+                                }
+                                <td>@Html.DisplayFor(modelItem => item.nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => item.marca)</td>
+                                <td>@Html.DisplayFor(modelItem => item.categoria.nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => item.precio)</td>
+                                <td>@Html.DisplayFor(modelItem => item.fechaVencimiento)</td>
+                                <td width="50px">
+                                    <form method="get" action="Editar">
+                                        <a type="submit" class="btn btn-warning btn-circle" data-toggle="tooltip" data-placement="top" title="Editar" href='@Url.Action("Editar", "MantenedorProducto", new { id = item.idProducto})'>
+                                            <i class="glyphicon glyphicon-pencil"></i>
+                                        </a>
+                                    </form>
+                                </td>
+                                <td width="50px">
+                                    <form method="get" action="Eliminar">
+                                        <a type="submit" class="btn btn-danger btn-circle" data-toggle="tooltip" data-placement="top" title="Eliminar" href='@Url.Action("Eliminar", "MantenedorProducto", new { id = item.idProducto}))'>
+                                            <i class="glyphicon glyphicon-trash"></i>
+                                        </a>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.table-responsive -->
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
