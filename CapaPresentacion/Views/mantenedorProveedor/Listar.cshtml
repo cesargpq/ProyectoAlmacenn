@@ -1,68 +1,68 @@
 ﻿
-@using CapaDominio
-@model IEnumerable<entProveedor>
+@model IEnumerable<CapaDominio.entProveedor>
 
-@{
-    ViewBag.Title = "Lista";
-    Layout = "~/Views/masterAlmacen.cshtml";
-}
+    @{
+        ViewBag.Title = "Listar";
+        Layout = "~/Views/masterAlmacen.cshtml";
+    }
 
+<<<<<<< HEAD
 <br/>
 <br/>
+=======
+    </br>
+    </br>
+>>>>>>> origin/master
 
-<div class="col-lg-12">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4><strong>Lista de Proveedores</strong></h4>
-        </div>
-        <!-- /.panel-heading -->
-        <div class="panel-body">
-            <div class="table-responsive">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th>Código</th>
-                            <th>Nombre</th>
-                            <th>Razón Social</th>
-                            <th>RUC</th>
-                            <th>Descripción</th>
-                            <th>Teléfono</th>
-                            <th>E-mail</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td>@Html.DisplayFor(modelItem => item.idProveedor)</td>
-                                <td>@Html.DisplayFor(modelItem => item.nombre)</td>
-                                <td>@Html.DisplayFor(modelItem => item.razonSocial)</td>
-                                <td>@Html.DisplayFor(modelItem => item.ruc)</td>
-                                <td>@Html.DisplayFor(modelItem => item.descripcion)</td>
-                                <td>@Html.DisplayFor(modelItem => item.telefono)</td>
-                                <td>@Html.DisplayFor(modelItem => item.email)</td>
-                                <td width="50px">
-                                    <form method="get" action="Editar">
-                                        <button type="submit" class="btn btn-primary btn-circle" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-list"></i>
-                                        </button>
-                                    </form>
-                                </td>
-                                <td width="50px">
-                                    <form method="get" action="Eliminar">
-                                        <button type="submit" class="btn btn-warning btn-circle" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </form>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><strong>Lista de Proveedores</strong></h4>
             </div>
-            <!-- /.table-responsive -->
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                </br>
+                <form method="get" action="Nuevo">
+                    <input type="submit" value="Nuevo" class="btn btn-outline btn-success" />
+                </form>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Nombre</th>
+                                <th>Razón Social</th>
+                                <th>RUC</th>
+                                <th>Descripción</th>
+                                <th>Teléfono</th>
+                                <th>E-mail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.idProveedor)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.nombre)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.razonSocial)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.ruc)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.descripcion)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.telefono)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.email)</td>
+                                    <td width="50px">
+                                        @Html.ActionLink(" ", "Editar", new { idProveedor = @item.idProveedor }, new { @class = "btn btn-primary btn-circle fa fa-list" })
+                                    </td>
+                                    <td width="50px">
+                                        @Html.ActionLink(" ", "Eliminar", new { idProveedor = @item.idProveedor }, new { @class = "btn btn-warning btn-circle fa fa-times" })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.table-responsive -->
+            </div>
+            <!-- /.panel-body -->
         </div>
-        <!-- /.panel-body -->
+        <!-- /.panel -->
     </div>
-    <!-- /.panel -->
-</div>

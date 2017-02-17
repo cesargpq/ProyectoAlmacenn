@@ -1,7 +1,7 @@
 ﻿@model CapaDominio.entProveedor
 
 @{
-    ViewBag.Title = "Editar";
+    ViewBag.Title = "Editar Proveedor";
     Layout = "~/Views/masterAlmacen.cshtml";
 }
 
@@ -12,73 +12,65 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>entProveedor</h4>
+        <h4>Proveedor</h4>
         <hr />
         @Html.ValidationSummary(true)
         <div class="form-group">
-            @Html.LabelFor(model => model.nombre, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.nombre)
+            <p class="control-label col-md-2" align="right"><strong>Nombre:</strong></p>
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.nombre, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.nombre)
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ruc, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ruc)
-                @Html.ValidationMessageFor(model => model.ruc)
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.descripcion, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.descripcion)
-                @Html.ValidationMessageFor(model => model.descripcion)
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.telefono, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.telefono)
-                @Html.ValidationMessageFor(model => model.telefono)
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.email, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.email)
-                @Html.ValidationMessageFor(model => model.email)
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.razonSocial, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.razonSocial)
+            <p class="control-label col-md-2" align="right"><strong>Razón Social:</strong></p>
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.razonSocial, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.razonSocial)
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.idProveedor, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.idProveedor)
-                @Html.ValidationMessageFor(model => model.idProveedor)
+            <p class="control-label col-md-2" align="right"><strong>RUC:</strong></p>
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.ruc, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ruc)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2" align="right"><strong>Descripción:</strong></p>
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.descripcion, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.descripcion)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2" align="right"><strong>Teléfono:</strong></p>
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.telefono, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.telefono)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2" align="right"><strong>E-mail:</strong></p>
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.email)
             </div>
         </div>
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Guardar" class="btn btn-default" />
             </div>
         </div>
     </div>
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Regresar a la lista", "Listar")
 </div>

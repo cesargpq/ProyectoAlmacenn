@@ -1,0 +1,79 @@
+﻿@model CapaDominio.entProveedor
+
+@{
+    ViewBag.Title = "Eliminar";
+    Layout = "~/Views/masterAlmacen.cshtml";
+}
+
+<h2>Eliminar</h2>
+<div>
+    <h4>Proveedor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <strong>Código:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idProveedor)
+        </dd>
+
+        <dt>
+            <strong>Nombre:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            <strong>Razón Social:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.razonSocial)
+        </dd>
+
+        <dt>
+            <strong>RUC:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ruc)
+        </dd>
+
+        <dt>
+            <strong>Descripción:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+        <dt>
+            <strong>Teléfono:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+
+        <dt>
+            <strong>E-mail:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default"/> |
+            @Html.ActionLink("Regresar a la lista", "Listar")
+        </div>
+    }
+</div>
